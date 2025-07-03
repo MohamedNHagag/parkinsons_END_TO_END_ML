@@ -38,7 +38,6 @@ This project walks through the full ML lifecycle:
 ## 📊 Dataset
 
 - Source: UCI Parkinson's Dataset
-- Path: `NoteBook/Dataset/parkinsons.data`
 - Target Column: `status`  
   - `1`: Parkinson’s disease  
   - `0`: Healthy
