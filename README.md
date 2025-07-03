@@ -15,22 +15,23 @@ This project walks through the full ML lifecycle:
 ---
 
 ## 📁 Project Structure
+```bash
 .
-├── src/ # Source code
-│ ├── components/ # Pipeline components
-│ │ ├── ingestion.py # Data ingestion (loading & splitting)
-│ │ ├── trainsformation.py # Data transformation & preprocessing
-│ │ ├── trainer.py # Model training
-│ │ ├── evaluate.py # Model evaluation
-│ │ └── utils.py # Utility functions
-│ ├── exception.py # Custom exception handling
-│ └── logger.py # Logging setup
+├── src/                     # Source code
+│   ├── components/          # Pipeline components
+│   │   ├── ingestion.py     # Data ingestion (loading & splitting)
+│   │   ├── trainsformation.py # Data transformation & preprocessing
+│   │   ├── trainer.py       # Model training
+│   │   ├── evaluate.py      # Model evaluation
+│   │   └── utils.py         # Utility functions
+│   ├── exception.py         # Custom exception handling
+│   └── logger.py            # Logging setup
 │
-├── artifacts/ # Trained models and preprocessors
-├── logs/ # Log files
-├── app.py # Main execution script
-├── streamlit_app.py # Streamlit UI for prediction
-├── README.md # Project documentation
+├── artifacts/               # Trained models and preprocessors
+├── logs/                    # Log files
+├── app.py                   # Main execution script
+├── streamlit_app.py         # Streamlit UI for prediction
+├── README.md                # Project documentation
 
 
 
