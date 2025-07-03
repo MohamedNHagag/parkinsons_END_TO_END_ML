@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+scikit-learn
+catboost
+xgboost
+Flask
+streamlit
+-e. #لو مش عاوزو يظهر ف المتطلبات 
